@@ -1,0 +1,41 @@
+PREISFINDER – eigene Handy-App
+==============================
+
+Die App besteht aus den Dateien in diesem Ordner. Damit dein Handy sie als App
+installieren kann, muss sie einmal im Internet abgelegt werden (https). Das ist
+kostenlos und dauert etwa 5 Minuten.
+
+1) App ins Internet stellen (am PC)
+   - https://app.netlify.com/drop öffnen
+   - Kostenloses Konto anlegen (damit die App dauerhaft bleibt)
+   - Den ganzen Ordner "preisfinder-app" (entpackt) auf die Seite ziehen
+   - Du bekommst eine Adresse wie https://irgendwas.netlify.app
+     Tipp: In den Site-Einstellungen kannst du den Namen ändern,
+     z. B. https://schaffer-preisfinder.netlify.app
+
+2) Am Android-Handy installieren
+   - Die Adresse in Chrome öffnen
+   - Menü (⋮) -> "App installieren" bzw. "Zum Startbildschirm hinzufügen"
+     (oder in der App unter "Preislisten" auf "Installieren" tippen)
+   - Ab jetzt hast du das Preisfinder-Symbol am Startbildschirm
+
+3) Preislisten einspielen (am Handy)
+   - In der App: Preislisten -> DATANORM-Dateien wählen
+   - Die Dateien z. B. vorher in Google Drive legen oder per Mail an dich schicken
+   - Bei Listen ohne Nettopreise: Lieferant antippen und deine Rabatte eintragen
+
+Gut zu wissen
+   - Alles (Preislisten, Rabatte, Materiallisten) wird nur am Handy gespeichert.
+     Unter "Preislisten" -> "Rabatte und Listen sichern" machst du eine Sicherung.
+   - Die App funktioniert auch ohne Internet (Keller, Baustelle).
+   - Neue Version: einfach den neuen Ordner wieder auf Netlify ziehen
+     (Site -> "Deploys"). Das Handy holt sie beim nächsten Öffnen mit Internet.
+   - Wer die Adresse kennt, kann die App öffnen, sieht aber KEINE deiner Daten –
+     die liegen nur auf deinem Gerät.
+
+Optional: echte APK-Datei
+   - https://www.pwabuilder.com öffnen, deine Netlify-Adresse eingeben
+   - "Package for stores" -> Android -> herunterladen
+   - Die .apk aufs Handy kopieren und installieren
+     (einmalig "Installation aus unbekannten Quellen" erlauben)
+   - Für den Google Play Store bräuchtest du ein Entwicklerkonto (einmalige Gebühr).
